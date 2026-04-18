@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arjun Kulshreshtha — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.6in;
+  }
+
+  /* === HEADER === */
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  /* === SECTIONS === */
+  .section {
+    margin-bottom: 18px;
+  }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  /* === PROFESSIONAL SUMMARY === */
+  .summary-text {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #2f2f2f;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+
+  /* === CORE COMPETENCIES === */
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  /* === WORK EXPERIENCE === */
+  .job {
+    margin-bottom: 14px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period {
+    font-size: 10.5px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .job-role {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+  }
+
+  .job ul {
+    padding-left: 18px;
+    margin-top: 4px;
+  }
+
+  .job li {
+    margin-bottom: 4px;
+    line-height: 1.6;
+  }
+
+  /* === PROJECTS === */
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .project-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2px;
+  }
+
+  .project-description {
+    font-size: 10.5px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  /* === EDUCATION === */
+  .education-entry {
+    margin-bottom: 8px;
+  }
+
+  .education-degree {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .education-school {
+    font-size: 10.5px;
+    color: #555;
+  }
+
+  /* === CERTIFICATIONS === */
+  .certification-category {
+    margin-bottom: 6px;
+  }
+
+  .certification-category-title {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .certification-list {
+    font-size: 10px;
+    color: #555;
+    margin-left: 12px;
+  }
+
+  /* === SKILLS === */
+  .skill-category {
+    margin-bottom: 6px;
+  }
+
+  .skill-category-title {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .skill-list {
+    font-size: 10px;
+    color: #555;
+    margin-left: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Arjun Kulshreshtha</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>Pittston, PA</span>
+      <span class="separator">•</span>
+      <span>314.326.9299</span>
+      <span class="separator">•</span>
+      <span><a href="mailto:arj.kulshreshtha@yahoo.com">arj.kulshreshtha@yahoo.com</a></span>
+      <span class="separator">•</span>
+      <span><a href="https://linkedin.com/in/arjunkulshreshtha">linkedin.com/in/arjunkulshreshtha</a></span>
+      <span class="separator">•</span>
+      <span><a href="https://github.com/arjkul">github.com/arjkul</a></span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <p class="summary-text">
+      AI-first technical leader with 12+ years architecting and delivering large-scale organizational programs at frontier research companies and operator-scale businesses. Expert in cross-functional alignment, technical problem-solving, and governance frameworks for complex initiatives. Proven ability to resolve systemic risks, lead diverse teams through ambiguous environments, and drive measurable outcomes — $20M+ cumulative impact across product strategy, operations, and AI-driven transformation. Active user of modern AI tools and coding assistants; AWS AI/ML certified.
+    </p>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <h2 class="section-title">Core Competencies</h2>
+    <div class="competencies-grid">
+      <span class="competency-tag">Organizational-Scale Programs</span>
+      <span class="competency-tag">Technical Program Management</span>
+      <span class="competency-tag">Frontier AI / LLMs</span>
+      <span class="competency-tag">Cross-Functional Leadership</span>
+      <span class="competency-tag">Governance & Methodology Design</span>
+      <span class="competency-tag">Stakeholder Management</span>
+      <span class="competency-tag">Risk & Dependency Resolution</span>
+      <span class="competency-tag">Ambiguous Environments</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <h2 class="section-title">Work Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">ShipMonk</div>
+          <div class="job-role">Senior Manager, B2B Product Strategy</div>
+          <div class="job-location">Pittston, PA</div>
+        </div>
+        <div class="job-period">2025 – Present</div>
+      </div>
+      <ul>
+        <li>Lead cross-functional teams (product, engineering, operations) to advance B2B e-commerce platform for 100+ enterprise accounts; define strategic roadmap and governance frameworks aligned with organizational objectives.</li>
+        <li>Reduced merchant churn 35% and chargebacks 69% through stakeholder-driven improvements, enhancing product value for 15+ big-box retail partners.</li>
+        <li>Delivered $4M strategic initiative on-time through meticulous milestone tracking and dependency management across 10+ cross-functional teams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">Amazon</div>
+          <div class="job-role">Senior Manager, eCommerce Product Operations</div>
+          <div class="job-location">Northeast & Midwest (IL, MA, CT, NY)</div>
+        </div>
+        <div class="job-period">2020 – 2025</div>
+      </div>
+      <ul>
+        <li>Architected and led $99M large-scale organizational program: hired and onboarded 160+ associates + 400 drivers in 100 days, delivered on-time through executive-level stakeholder alignment and dependency resolution across supply chain, field operations, and technology.</li>
+        <li>Scaled last-mile delivery station from 10K to 100K shipments/day (10X growth) in one year while improving quality 76%; led 21-person management team and resolved systemic technical and operational bottlenecks at scale.</li>
+        <li>Increased regional productivity 10% (13K manhours saved) within 3 months via data-driven process improvements and technical roadmap optimization, delivering $4.5M impact; positioned region in top 10 of U.S. last-mile network.</li>
+        <li>Developed and deployed forecasting models for 1,500+ team members, improving capacity planning accuracy and network utilization 15% through iterative feedback and governance frameworks.</li>
+        <li>Designed and managed $5M automation initiative roadmap; optimized technical architecture for shipment redirection, boosting operational efficiency 12% across three facilities.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">Hindustan Petroleum Corporation Limited</div>
+          <div class="job-role">Assistant Manager, Supply Chain & Logistics</div>
+          <div class="job-location">Multiple Cities, India</div>
+        </div>
+        <div class="job-period">2012 – 2019</div>
+      </div>
+      <ul>
+        <li>Led organizational-scale supply chain transformation initiatives; designed governance frameworks and process excellence methodologies across 5+ facilities and 120+ external stakeholders.</li>
+        <li>Developed roadmap for Renewable Energy Certificate reallocation, achieving $2.5M annual savings; applied technical expertise to resolve architectural and energy management disputes.</li>
+        <li>Designed and deployed forecasting models to identify systemic risks and dependencies in logistics network; improved downtime accuracy and productivity 8% through iterative governance cycles.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <h2 class="section-title">Key Projects</h2>
+
+    <div class="project">
+      <div class="project-name">Amazon Last-Mile 10X Scale</div>
+      <div class="project-description">Architected and led delivery station program scaling 10K→100K shipments/day. Managed cross-functional alignment across operations, engineering, and technology teams. Improved quality metrics 76% while managing complex dependencies and resolving technical bottlenecks.</div>
+    </div>
+
+    <div class="project">
+      <div class="project-name">Amazon $99M Station Launch Program</div>
+      <div class="project-description">Scope and delivery leadership for organizational-scale infrastructure program. Onboarded 160+ associates and 400 drivers in 100 days. Established methodologies, governance frameworks, and stakeholder management processes for seamless execution.</div>
+    </div>
+
+    <div class="project">
+      <div class="project-name">Nestlé Purina Product Vision</div>
+      <div class="project-description">Led cross-functional team of 7 on 6-month vision development. Conducted market research to unblock product decisions and resolve strategic disputes; delivered data-driven recommendations enhancing revenue potential.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="education-entry">
+      <div class="education-degree">Master of Business Administration</div>
+      <div class="education-school">Washington University in St. Louis — Merit-Based Scholarship</div>
+    </div>
+    <div class="education-entry">
+      <div class="education-degree">Bachelor of Science, Electronics & Communications Engineering</div>
+      <div class="education-school">Allahabad University — Merit-Based Scholarship</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section">
+    <h2 class="section-title">AI, Technical, & Professional Certifications</h2>
+    <div class="certification-category">
+      <div class="certification-category-title">AI & Foundation Models</div>
+      <div class="certification-list">
+        AWS Developing Generative AI Solutions • Machine Learning Solutions & Prompt Engineering • Generative AI for Executives: Optimizing Foundation Models • Machine Learning A-Z (Python & R)
+      </div>
+    </div>
+    <div class="certification-category">
+      <div class="certification-category-title">Technical & Data</div>
+      <div class="certification-list">
+        Tableau Essential Training • Advanced Excel: Macros & VBA • ISO 50001 Auditor
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <h2 class="section-title">Technical Skills & Tools</h2>
+    <div class="skill-category">
+      <div class="skill-category-title">Program & Product Management</div>
+      <div class="skill-list">Product Strategy • Roadmap Development • Cross-Functional Execution • Backlog Prioritization • Governance Framework Design • Stakeholder Collaboration</div>
+    </div>
+    <div class="skill-category">
+      <div class="skill-category-title">AI & Automation</div>
+      <div class="skill-list">Claude Code • AI Studio • Cursor • Generative AI / LLMs • Prompt Engineering • N8N • Zapier • Modern AI Tools & Coding Assistants</div>
+    </div>
+    <div class="skill-category">
+      <div class="skill-category-title">Data & Analytics</div>
+      <div class="skill-list">Forecasting Models • Data-Driven Decision-Making • KPI Tracking • PowerBI • Tableau • Advanced Excel • Python</div>
+    </div>
+    <div class="skill-category">
+      <div class="skill-category-title">Agile & Collaboration</div>
+      <div class="skill-list">Scrum • Jira • Sprint Planning • Release Management • Asana • Slack</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

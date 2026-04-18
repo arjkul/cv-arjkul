@@ -1,0 +1,208 @@
+# Pipeline — Pending Evaluations
+
+## Pending
+<!-- Add URLs here — /career-ops pipeline will process them -->
+
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5777645004 | Vercel | GTM Engineer
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5796302004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5804110004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5806749004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/5112001008 | RunPod | Senior Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4651950005 | Glean | Forward Deployed Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4659407005 | Glean | Forward Deployed Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4659409005 | Glean | Forward Deployed Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4659412005 | Glean | Founding Forward Deployed Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4651991005 | Glean | Founding Forward Deployed Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4651990005 | Glean | Founding Forward Deployed Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4508312005 | Glean | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4434258005 | Glean | Solutions Architect (EMEA/US East Customer hours)
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4611652005 | Glean | Senior Technical Program Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4657199005 | Glean | Senior Technical Program Manager, Connectors
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4628714005 | Glean | Senior Technical Program Manager, Infrastructure
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4525518005 | Glean | Product Manager, AI Quality
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4525297005 | Glean | Product Manager, Agent Security & Governance
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4559476005 | Glean | Product Management Lead, Core Experience
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4792165101 | Speechmatics | Forward Deployed Engineer
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4823688101 | Speechmatics | Solutions Engineer
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4823663101 | Speechmatics | Solutions Engineer
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4823682101 | Speechmatics | Solutions Engineer
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4823679101 | Speechmatics | Solutions Engineer
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4673941101 | Speechmatics | Senior Product Manager
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4675075101 | Speechmatics | Senior Product Manager
+- [ ] https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6 | ElevenLabs | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9 | Cohere | Applied AI Engineer – Agentic Workflows
+- [ ] https://jobs.ashbyhq.com/n8n/e9130ede-c4cc-4bc2-937b-1292b9e794e7 | n8n | Senior Solutions Architect DACH (Remote Europe)
+- [ ] https://jobs.ashbyhq.com/n8n/788662b7-6b2b-4b07-b466-bf131fd95d08 | n8n | Senior Solutions Engineer (East Coast Remote)
+- [ ] https://jobs.ashbyhq.com/n8n/92208273-951b-4388-935b-037624fe1725 | n8n | Senior Solutions Engineer (Remote Europe)
+- [ ] https://jobs.ashbyhq.com/n8n/5d501d74-cb30-4c14-8ff9-508f647b34a9 | n8n | Senior AI Engineer (Europe remote)
+- [ ] https://jobs.ashbyhq.com/deepgram/8884965c-8a55-414c-ba86-a52d527f5dff | Deepgram | Solutions Engineer, Enterprise
+- [ ] https://jobs.ashbyhq.com/decagon/8c40fb7a-5f25-4112-a1df-f1c22b81042c | Decagon | Customer Engineer, Agent Builder
+- [ ] https://jobs.ashbyhq.com/synthflow/5e7b11f1-b915-46f2-bab4-ec2782118373 | Synthflow AI | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/livekit/b889ef16-4d5d-4b71-b0a9-682026a0a1ee | LiveKit | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/vapi | Vapi | (browse for relevant roles)
+- [ ] https://jobs.ashbyhq.com/pinecone | Pinecone | (browse for relevant roles)
+- [ ] https://jobs.ashbyhq.com/zapier/cac70300-4e62-4299-bc34-aab69e7498f4 | Zapier | AI Automation Expert
+- [ ] https://jobs.ashbyhq.com/openai/638f2b84-7b8e-41e5-8a03-7bb83061d0f5 | OpenAI | Senior L&D Enablement Program Manager
+- [ ] https://jobs.ashbyhq.com/adaptive-ml/360ea776-27f1-4869-900f-6ebb78267aa2 | Adaptive ML | Forward Deployed AI Engineer
+- [ ] https://jobs.ashbyhq.com/baseten/84c1801c-1a65-49fb-aaaa-beeafd530e7e | Baseten | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/v7labs.com/c26d2c49-eaae-438c-9aa0-4dafbea315bc | V7 | AI Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/tavily/ea19ba06-293e-4129-a7db-b4f7ae57a720 | Tavily | Forward Deployed Engineer, Partnerships
+- [ ] https://jobs.ashbyhq.com/reflectionai/8b97b583-3cc6-4834-ae2c-d5aecf22ed7d | Reflection AI | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/norm-ai/366d4079-4842-469d-a5e0-3cc891a136b4 | Norm AI | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/P-1%20AI/75c853db-4a8d-4f23-b28f-05a2231e70e6 | P-1 AI | Forward Deployed Engineer
+- [ ] https://jobs.ashbyhq.com/lorikeet/0c72da73-cd31-4702-b9f1-c26b20932702 | Lorikeet | Forward Deployed AI Engineer
+- [ ] https://jobs.ashbyhq.com/lorikeet/a00d35af-2d47-4ed6-8d99-2cb1fb86e44f | Lorikeet | Solutions Architect
+- [ ] https://jobs.ashbyhq.com/uipath/66cbeab1-9003-446c-b968-d1851bd0aa3e | UiPath | Enterprise AI Solution Architect
+- [ ] https://jobs.ashbyhq.com/fiddler-ai/640c12b9-6a07-4be1-a542-d76e4240e2ff | Fiddler AI | Solutions Architect, Customer Success - US (Remote)
+- [ ] https://jobs.ashbyhq.com/revenuecat/998a9cef-3ea5-45c2-885b-8a00c4eeb149 | RevenueCat | Agentic AI Advocate
+- [ ] https://jobs.ashbyhq.com/writer/d590e2f0-e2fe-4a02-b0e1-14f20777af13 | Writer | AI Product Manager
+- [ ] https://jobs.ashbyhq.com/vanta/6a0a8ee8-a1bc-4eb4-b4ff-7a1a4bf9427c | Vanta | Principal Product Manager, Platform
+- [ ] https://jobs.ashbyhq.com/lakera.ai/95faf367-7a43-4454-997f-d9e7b5f11079 | Lakera | Senior Product Manager (SF or Remote East Coast)
+- [ ] https://jobs.ashbyhq.com/sosafe/8d99c8e4-cb5d-453f-a73d-83f66c00cc78 | SoSafe | Director of Product Management
+- [ ] https://jobs.ashbyhq.com/openai/d2ab1c9b-5c0c-4b43-a7c3-c9301854c023 | OpenAI | Forward Deployed Engineer (FDE), Life Sciences - London
+- [ ] https://jobs.lever.co/agiloft/e85a0460-4a4c-48b4-a42e-0ff4f124d890 | Agiloft | Forward Deployed Engineer - AI Solutions
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5057647008 | Anthropic | Applied AI Engineer (Digital Natives Business)
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5111942008 | Anthropic | Applied AI Engineer, Life Sciences (Beneficial Deployments)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5783026004 | Arize AI | AI Solutions Manager (San Francisco)
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7135001 | Google DeepMind | Director of Product Management, Robotics
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7094457 | Google DeepMind | Product Manager, Gemini App for Devices
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7646114 | Google DeepMind | Product Manager, Information Quality, Frontier AI
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7522587 | Google DeepMind | Product Manager, Technical Intelligence
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7573806 | Google DeepMind | Program Manager, AI Infrastructure Operations (12 Months FTC)
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7699947 | Google DeepMind | Senior Product Manager, Kaggle, North America
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7389078 | Google DeepMind | Senior Program Manager, Google DeepMind Impact Accelerator
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7775721 | Google DeepMind | Senior Staff Technical Program Manager, Personal Intelligence
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7488187 | Google DeepMind | Senior Technical Program Manager, GeminiApp
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7269160 | Google DeepMind | Senior Technical Program Manager, GeminiApp
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7473344 | Google DeepMind | Technical Program Manager, Agentic Development Platform
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7477606 | Google DeepMind | Technical Program Manager, Agentic Development Platform (Modeling & Evals)
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7556601 | Google DeepMind | Technical Program Manager, Frontier AI Research
+- [ ] https://job-boards.greenhouse.io/deepmind/jobs/7535915 | Google DeepMind | Tech Strategy Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4629292005 | Glean | Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4482380005 | Glean | Product Manager, Connectors
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4597178005 | Glean | Product Manager, Connectors
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4641940005 | Glean | Product Manager, Glean Protect (Security & Governance)
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4663045005 | Glean | Partner Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5806456004 | Vercel | Manager, Solutions Architecture
+- [ ] https://openai.com/careers/manager-forward-deployed-engineer-(fde)-life-sciences-san-francisco/ | OpenAI | Manager, Forward Deployed Engineer (FDE), Life Sciences
+- [ ] https://openai.com/careers/manager-forward-deployed-engineering-new-york-city/ | OpenAI | Manager, Forward Deployed Engineering
+- [ ] https://openai.com/careers/forward-deployed-engineer-(fde)-sf-san-francisco/ | OpenAI | Forward Deployed Engineer (FDE) - SF
+- [ ] https://openai.com/careers/forward-deployed-engineer-semiconductor-san-francisco/ | OpenAI | Forward Deployed Engineer - Semiconductor
+- [ ] https://openai.com/careers/forward-deployed-software-engineer-sf-san-francisco/ | OpenAI | Forward Deployed Software Engineer - SF
+- [ ] https://jobs.ashbyhq.com/openai/c7a3ae9b-277b-4ce0-97eb-77633f6b1269 | OpenAI | Lead, Technical AI Deployment Manager
+- [ ] https://jobs.ashbyhq.com/openai/e2d67035-e522-4c97-a68c-8ed31b245ff0 | OpenAI | AI Deployment Manager - Core Ecosystem, EDU
+- [ ] https://jobs.ashbyhq.com/motion/fdb16590-985e-49b6-ba77-a5ade2d54101 | Motion | AI Deployment Manager
+- [ ] https://careers.salesforce.com/en/jobs/jr305198/ai-forward-deployed-engineer-seniorleadprincipal/ | Salesforce | AI Forward Deployed Engineer (Senior/Lead/Principal)
+- [ ] https://careers.salesforce.com/en/jobs/jr305206/agentforceai-deployment-strategist-multiple-levels/ | Salesforce | Agentforce/AI Deployment Strategist (Multiple Levels)
+- [ ] https://careers.salesforce.com/en/jobs/jr336678/senior-director-forward-deployed-engineering-lead-agentforce-supply-chain/ | Salesforce | Senior Director, Forward Deployed Engineering Lead - Agentforce Supply Chain
+- [ ] https://jobs.ashbyhq.com/perplexity/aa511ea8-96e3-42ba-b28f-5e222170bcee | Perplexity | Forward Deployed Engineer - Applied AI
+- [ ] https://jobs.ashbyhq.com/procurify/36f109d4-4024-4bfe-986c-6997c02b9967 | Procurify | Senior Product Manager, AI
+- [ ] https://jobs.ashbyhq.com/finout/2453ca42-07b5-44ba-bb70-856366fc5c9f | Finout | Senior AI Product Manager
+- [ ] https://jobs.ashbyhq.com/Ment/6af78f81-ca51-49bc-a530-974dca9928c6 | Ment | AI Product Manager
+- [ ] https://job-boards.greenhouse.io/sayari/jobs/4140623009 | Sayari | Senior Product Manager, AI Platform (Remote, US)
+- [ ] https://boards.greenhouse.io/toast/jobs/7673399 | Toast | Senior Product Manager, AI CSM (Remote, US)
+- [ ] https://job-boards.greenhouse.io/collectivei/jobs/4672023008 | Collective[i] | Senior Product Manager (Remote, US)
+- [ ] https://job-boards.greenhouse.io/connectwise/jobs/4682593005 | ConnectWise | Senior Product Manager - AI
+- [ ] https://jobs.lever.co/mistral/c08c3a0f-9899-4e6c-8195-8b1cc24c56ff | Mistral AI | Product Manager, Context & Search
+- [ ] https://jobs.ashbyhq.com/ema/0d15a73d-3e38-4f3c-b71c-9df5d80b7f34 | Ema | Agentic Solutions Product Manager - Platform
+- [ ] https://www.hubspot.com/careers/jobs/7247449 | HubSpot | Senior Product Manager II, AI-Powered Customer
+- [ ] https://careers.google.com/jobs/results/88467639143146182-lead-group-product-manager/ | Google | Lead Group Product Manager, AI Personalization
+- [ ] https://careers.google.com/jobs/results/84804547435733702-technical-program-manager/ | Google | Technical Program Manager, AI/ML Storage Systems
+- [ ] https://careers.google.com/jobs/results/78627962483548870-technical-program-manager-iii/ | Google | Technical Program Manager III, Generative AI, Search
+- [ ] https://careers.google.com/jobs/results/122610899316810438-product-manager-aiml-google-research/ | Google | Product Manager, AI/ML, Google Research
+- [ ] https://careers.google.com/jobs/results/119145465049424582-director-product-management-document-ai/ | Google | Director Product Management, Document AI
+- [ ] https://careers.google.com/jobs/results/98599486919451334/ | Google | Product Manager, AI Product Innovation
+- [ ] https://jobs.ashbyhq.com/zapier/fb05cc03-ec9c-4779-ad15-48cc66509caa | Zapier | Product Manager, Growth
+- [ ] https://jobs.ashbyhq.com/supabase/74542052-f648-48fb-a8fe-a8c5cd14a74e | Supabase | Product Manager
+- [ ] https://jobs.ashbyhq.com/workos/5550ddd5-c3eb-459a-aa4d-8b1216346d88 | WorkOS | Product Manager
+- [ ] https://jobs.ashbyhq.com/langchain/17264d5c-0ca3-4c26-9683-dd9b020cc155 | LangChain | Deployed Engineer
+- [ ] https://job-boards.greenhouse.io/cresta/jobs/4759347008 | Cresta | Senior Forward Deployed Engineer (AI Agent)
+- [ ] https://job-boards.greenhouse.io/smartsheet/jobs/7798778 | Smartsheet | Senior Forward Deployed AI Engineer (Remote Eligible)
+- [ ] https://job-boards.greenhouse.io/togetherai/jobs/4222183007 | Together AI | AI Solutions Architect
+- [ ] https://job-boards.greenhouse.io/mercury/jobs/5888354004 | Mercury | AI Solutions Architect
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4461444008 | Anthropic | Solutions Architect, Applied AI (Industries)
+- [ ] https://job-boards.greenhouse.io/xai/jobs/4717376007 | xAI | AI Engineer (Voice) - Enterprise
+- [ ] https://job-boards.greenhouse.io/nebius/jobs/4381327101 | Nebius | Senior/Staff ML Engineer (LLMs and Agentic Systems)
+- [ ] https://jobs.ashbyhq.com/salient/a213eea8-ef18-40cb-b693-67ca3900c7fb | Salient | Forward Deployed Software Engineer
+- [ ] https://openai.com/careers/forward-deployed-engineer-(fde)-nyc-new-york-city/ | OpenAI | Forward Deployed Engineer (FDE) - NYC
+- [ ] https://openai.com/careers/forward-deployed-engineer-financial-services-new-york-city/ | OpenAI | Forward Deployed Engineer - Financial Services
+- [ ] https://openai.com/careers/forward-deployed-engineer-paris-paris-france/ | OpenAI | Forward Deployed Engineer - Paris
+- [ ] https://retool.com/careers/deployed-ai-engineer--product--san-francisco-ca | Retool | Deployed AI Engineer
+- [ ] https://job-boards.greenhouse.io/assemblyai/jobs/4664024005 | AssemblyAI | Applied AI Engineer
+- [ ] https://jobs.ashbyhq.com/superdial/6129fe25-3ad0-4ab9-8548-fe97ce370711 | SuperDial | Senior Voice AI Engineer
+- [ ] https://jobs.ashbyhq.com/notion/25aa4f5c-a0df-4dd7-82b6-ea97c8cad12e | Notion | Staff Software Engineer, AI Agentic Search
+- [ ] https://jobs.ashbyhq.com/happyrobot.ai/9b99c0bc-6f1b-4ad1-85f3-b7a6edf71102 | HappyRobot | Forward Deployed Engineer
+- [ ] https://www.workatastartup.com/jobs/87890 | Dot (YC) | Forward Deployed AI Engineer (Remote)
+- [ ] https://www.google.com/about/careers/applications/jobs/results/78653011269690054-director,-tech-and-data-enablement,-trust-and-safety | Google | Director, Tech and Data Enablement, Trust and Safety
+- [ ] https://www.google.com/about/careers/applications/jobs/results/129551369466979014-director,-product-management,-search-and-context,-workspace | Google | Director, Product Management, Search and Context, Workspace
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5183044008 | Anthropic | Anthropic Fellows Program — AI Safety
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5183051008 | Anthropic | Anthropic Fellows Program — ML Systems & Performance
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5183052008 | Anthropic | Anthropic Fellows Program — Reinforcement Learning
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5183006008 | Anthropic | Senior Product Manager, Education Labs
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5171946008 | Anthropic | Senior Manager, Revenue Accounting - New Product Introduction
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5181852008 | Anthropic | Product Manager, API Growth
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5179882008 | Anthropic | Product Operations Manager, Feedback Loops
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5179891008 | Anthropic | Product Operations Manager, Research Product
+- [ ] https://www.hubspot.com/careers/jobs/7807857 | HubSpot | Principal Product Manager - Foundry
+- [ ] https://www.google.com/about/careers/applications/jobs/results/75216777587368646-strategy-and-operations-lead,-google-marketing-platform-sales | Google | Strategy and Operations Lead, Google Marketing Platform Sales
+- [ ] https://www.google.com/about/careers/applications/jobs/results/99728147355706054-video-lead,-apps,-large-customer-sales | Google | Video Lead, Apps, Large Customer Sales
+
+## Processed
+<!-- Processed entries are moved here automatically -->
+
+- [x] #401 | https://job-boards.greenhouse.io/airtable/jobs/8461582002 | Airtable | Senior Partner Solutions Architect | 3.6/5 | PDF ❌
+- [x] #402 | https://job-boards.greenhouse.io/airtable/jobs/8462421002 | Airtable | Senior Partner Solutions Architect | 3.6/5 | PDF ❌
+- [x] #403 | https://job-boards.greenhouse.io/vercel/jobs/5778418004 | Vercel | Forward-Deployed Engineer | 4.2/5 | PDF ❌
+- [x] #404 | https://job-boards.greenhouse.io/vercel/jobs/5752684004 | Vercel | Forward-Deployed Engineer | 4.2/5 | PDF ❌
+- [x] #405 | https://job-boards.greenhouse.io/vercel/jobs/5872425004 | Vercel | Forward Deployed Engineer, v0 | 4.4/5 | PDF ❌
+- [x] #406 | https://job-boards.greenhouse.io/vercel/jobs/5777645004 | Vercel | GTM Engineer | 4.2/5 | PDF ❌
+- [x] #407 | https://job-boards.greenhouse.io/vercel/jobs/5796302004 | Vercel | Solutions Architect | 4.1/5 | PDF ❌
+- [x] #408 | https://job-boards.greenhouse.io/vercel/jobs/5804110004 | Vercel | Solutions Architect | 4.1/5 | PDF ❌
+- [x] #409 | https://job-boards.greenhouse.io/vercel/jobs/5806749004 | Vercel | Solutions Architect | 4.6/5 | PDF ❌
+- [x] #410 | https://job-boards.greenhouse.io/arizeai/jobs/5818115004 | Arize AI | AI Product Manager | 4.4/5 | PDF ❌
+- [x] #411 | https://job-boards.greenhouse.io/arizeai/jobs/5797408004 | Arize AI | AI Solutions Engineer | 4.2/5 | PDF ❌
+- [x] #412 | https://job-boards.greenhouse.io/arizeai/jobs/5769693004 | Arize AI | AI Solutions Engineer (Charlotte) | 1.0/5 | PDF ❌
+- [x] #413 | https://job-boards.greenhouse.io/arizeai/jobs/5781408004 | Arize AI | AI Solutions Engineer, EMEA | 3.8/5 | PDF ❌
+- [x] #414 | https://job-boards.greenhouse.io/arizeai/jobs/5969145004 | Arize AI | AI Application Engineer | 3.5/5 | PDF ❌
+- [x] #415 | https://job-boards.greenhouse.io/arizeai/jobs/5661972004 | Arize AI | AI Engineer, Instrumentation | 4.0/5 | PDF ❌
+- [x] #416 | https://job-boards.greenhouse.io/runpod/jobs/5173070008 | RunPod | Forward Deployed Engineer APAC | 4.4/5 | PDF ❌
+- [x] #417 | https://job-boards.greenhouse.io/runpod/jobs/5112001008 | RunPod | Senior Product Manager | 4.8/5 | PDF ❌
+- [x] #418 | https://job-boards.greenhouse.io/gleanwork/jobs/4651950005 | Glean | Forward Deployed Product Manager | 4.6/5 | PDF ❌
+- [x] #419 | https://job-boards.greenhouse.io/gleanwork/jobs/4659407005 | Glean | Forward Deployed Product Manager | 4.6/5 | PDF ❌
+- [x] #420 | https://job-boards.greenhouse.io/gleanwork/jobs/4659409005 | Glean | Forward Deployed Product Manager | 4.6/5 | PDF ❌
+- [x] #377 | https://job-boards.eu.greenhouse.io/parloa/jobs/4823910101 | Parloa | Senior Agent Architect | 4.2/5 | PDF ❌
+- [x] #381 | https://job-boards.eu.greenhouse.io/parloa/jobs/4703519101 | Parloa | Staff/Principal Product Manager | 4.2/5 | PDF ❌
+- [x] #382 | https://job-boards.eu.greenhouse.io/parloa/jobs/4784741101 | Parloa | GSI Partnerships Manager - (Conversational AI & Agentic AI) | 3.8/5 | PDF ❌
+- [x] #383 | https://job-boards.eu.greenhouse.io/parloa/jobs/4780830101 | Parloa | Partner Solution Engineer | 3.9/5 | PDF ❌
+- [x] #384 | https://job-boards.greenhouse.io/intercom/jobs/7556413 | Intercom | Forward Deployed Software Engineer | 2.5/5 | PDF ❌
+- [x] #385 | https://job-boards.greenhouse.io/intercom/jobs/7218259 | Intercom | Senior Forward Deployed Engineer | 2.5/5 | PDF ❌
+- [x] #386 | https://job-boards.greenhouse.io/intercom/jobs/7462098 | Intercom | Senior Forward Deployed Engineer | 3.8/5 | PDF ❌
+- [x] #387 | https://job-boards.greenhouse.io/intercom/jobs/7763257 | Intercom | Senior Manager, Forward Deployed Engineering | 4.5/5 | PDF ❌
+- [x] #388 | https://job-boards.greenhouse.io/intercom/jobs/7464294 | Intercom | Senior AI Product Manager | 3.9/5 | PDF ❌
+- [x] #389 | https://job-boards.greenhouse.io/intercom/jobs/7377200 | Intercom | Senior AI Product Manager | 3.9/5 | PDF ❌
+- [x] #390 | https://job-boards.greenhouse.io/intercom/jobs/7464291 | Intercom | Senior AI Product Manager | 3.9/5 | PDF ❌
+- [x] #391 | https://job-boards.greenhouse.io/intercom/jobs/7774407 | Intercom | Senior AI Deployment Architect | 4.2/5 | PDF ❌
+- [x] #392 | https://job-boards.greenhouse.io/intercom/jobs/7776018 | Intercom | Senior AI Deployment Architect | 4.2/5 | PDF ❌
+- [x] #393 | https://job-boards.greenhouse.io/intercom/jobs/7544457 | Intercom | Senior AI Deployment Consultant | 0.0/5 | PDF ❌
+- [x] #394 | https://job-boards.greenhouse.io/intercom/jobs/7735288 | Intercom | Senior AI Deployment Consultant | 0.0/5 | PDF ❌
+- [x] #395 | https://job-boards.greenhouse.io/airtable/jobs/8409168002 | Airtable | AI Agent Architect, Customer Experience | 4.6/5 | PDF ❌
+- [x] #396 | https://job-boards.greenhouse.io/airtable/jobs/8382158002 | Airtable | Program Manager, AI Programs | 4.6/5 | PDF ❌
+- [x] #397 | https://job-boards.greenhouse.io/airtable/jobs/8199012002 | Airtable | Product Manager, AI | 4.4/5 | PDF ❌
+- [x] #398 | https://job-boards.greenhouse.io/airtable/jobs/8477376002 | Airtable | Forward Deployed Engineer, EMEA | 2.5/5 | PDF ❌
+- [x] #399 | https://job-boards.greenhouse.io/airtable/jobs/8341413002 | Airtable | Senior Solutions Architect | 2.5/5 | PDF ❌
+- [x] #400 | https://job-boards.greenhouse.io/airtable/jobs/8487502002 | Airtable | Senior Solutions Architect | 4.6/5 | PDF ❌
+- [x] #278 | https://job-boards.greenhouse.io/gleanwork/jobs/4628879005 | Glean | Senior Technical Program Manager, Product | 4.3/5 | PDF ❌
+- [x] #279 | https://jobs.ashbyhq.com/uipath/7241a90d-4756-4d06-9b14-429e8ee958d2 | UiPath | Solution Architect - Automation | 1.8/5 | PDF ❌
+- [x] #280 | https://job-boards.greenhouse.io/workato/jobs/8320989002 | Workato | Senior Forward Deployed Engineer | 2.8/5 | PDF ❌
+- [x] #282 | https://job-boards.greenhouse.io/labelbox/jobs/4640927007 | Labelbox | Forward Deployed Engineer | 2.2/5 | PDF ❌
+- [x] #283 | https://job-boards.greenhouse.io/securityscorecard/jobs/7782217 | SecurityScorecard | Senior Product Manager, AI | 2.4/5 | PDF ❌
+- [x] #284 | https://job-boards.greenhouse.io/postscript/jobs/8445410002 | Postscript | Senior Product Manager, AI | 3.8/5 | PDF ❌
+- [x] #285 | https://job-boards.greenhouse.io/samsara/jobs/7742662 | Samsara | Senior Program Manager, Sales Programs – AI | 3.8/5 | PDF ❌
+- [x] #286 | https://job-boards.greenhouse.io/halcyon/jobs/5727063004 | Halcyon | Senior/Principal Program Manager | 4.0/5 | PDF ❌
+- [x] #287 | https://job-boards.greenhouse.io/affirm/jobs/7546361003 | Affirm | Senior Director, Operations | 4.3/5 | PDF ❌
+- [x] #289 | https://job-boards.greenhouse.io/togetherai/jobs/5093344007 | Together AI | Senior Platform Engineer, Voice AI | 1.5/5 | PDF ❌
+- [x] #290 | https://job-boards.greenhouse.io/hightouch/jobs/5542602004 | Hightouch | Software Engineer, AI Agents | 2.0/5 | PDF ❌
+- [x] #292 | https://job-boards.greenhouse.io/myriad360/jobs/8402449002 | Myriad360 | AI Automation Engineer Tech Lead (Remote) | 3.2/5 | PDF ❌
+- [x] #293 | https://job-boards.greenhouse.io/unframe/jobs/4840638101 | Unframe | AI Product Manager (Remote) | 4.6/5 | PDF ❌
+- [x] #294 | https://job-boards.greenhouse.io/devrev/jobs/5528192004 | DevRev | Forward Deployed Architect | 2.8/5 | PDF ❌
+- [x] #297 | https://www.workatastartup.com/jobs/77473 | FurtherAI (YC) | Forward Deployed Engineer | 2.5/5 | PDF ❌

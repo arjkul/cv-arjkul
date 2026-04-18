@@ -1,0 +1,317 @@
+# Portal Scanner Configuration
+# Used by /career-ops scan to discover new offers automatically.
+#
+# Strategy (3 levels):
+#   1. Playwright → careers_url of each company (real-time, reliable)
+#   2. Greenhouse API → structured JSON (fast, Greenhouse-only)
+#   3. WebSearch with site: filters (broad discovery, may be stale)
+#
+# IMPORTANT: Each company in tracked_companies MUST have careers_url.
+#
+# HOW TO CUSTOMIZE:
+#   1. Copy this file to portals.yml in the project root
+#   2. Edit title_filter.positive with YOUR target role keywords
+#   3. Add/remove companies in tracked_companies
+#   4. Adjust search_queries for your preferred job boards
+#   5. Set enabled: false on companies you don't care about
+
+# -- Title filter --
+# The scanner uses these keywords to decide if a title is relevant.
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
+
+title_filter:
+  positive:
+    # [CUSTOMIZE] Add keywords matching YOUR target roles
+    # -- AI/ML roles --
+    - "AI"
+    - "ML"
+    - "LLM"
+    - "Agent"
+    - "Agentic"
+    - "GenAI"
+    - "Generative AI"
+    - "Voice AI"
+    - "Conversational AI"
+    - "Speech"
+    # -- Product roles --
+    - "Product Manager"
+    - "Technical PM"
+    - "Program Manager"
+  negative:
+    # -- German AI/ML keywords (DACH market) --
+    - "KI"
+    - "Künstliche Intelligenz"
+    - "KI manager"
+    - "KI Trainer"
+    - "Dozent"
+    - "Weiterbildung"
+    # [CUSTOMIZE] Add keywords for roles you want to exclude
+    - "Junior"
+    - "Intern"
+    - ".NET"
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce Admin"
+    - "SAP "
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+     # -- Automation roles --
+    - "Automation"
+    - "Hyperautomation"
+    - "Low-Code"
+    - "No-Code"
+    - "GTM manager"
+    - "RevOps"
+    - "Business Systems"
+    - "Internal Tools"
+    - "Transformation"
+  seniority_boost:
+    # These prefixes add relevance but are not required
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head"
+    - "Director"
+    - "Vice President"
+
+# -- Search queries --
+# Each query triggers a WebSearch. Use site: to filter by portal.
+# The scanner extracts title, URL, and company from results.
+
+search_queries:
+  # -- Ashby --
+  - name: Ashby — AI PM
+    query: 'site:jobs.ashbyhq.com "AI Product Manager" OR "Senior Product Manager AI" remote'
+    enabled: true
+
+  - name: Ashby — Solutions Architect
+    query: 'site:jobs.ashbyhq.com "Solutions Architect" AI OR automation remote'
+    enabled: true
+
+  - name: Ashby — Agentic
+    query: 'site:jobs.ashbyhq.com "Agentic" OR "AI Agent" OR "Automation Architect" remote'
+    enabled: true
+
+  # -- Greenhouse --
+  - name: Greenhouse — AI PM
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI Product Manager" OR "Senior Product Manager" AI remote'
+    enabled: true
+
+  - name: Greenhouse — AI manager
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI manager" OR "LLM" OR "Agentic" remote'
+    enabled: true
+
+  # -- Workable --
+  - name: Workable — AI Roles
+    query: 'site:apply.workable.com "AI" "Product Manager" OR "Solutions Architect" OR "AI manager" remote'
+    enabled: true
+
+  # -- FDE specific (cross-portal) --
+  - name: FDE & Deployed manager — All portals
+    query: '"Forward Deployed manager" OR "Deployed manager" OR "Deployment manager" AI site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
+    enabled: true
+
+   # -- Specialized AI / Dev-Tools / FDE boards --
+
+  - name: YC Jobs — Applied AI
+    query: 'site:workatastartup.com "Applied AI" OR "AI manager" OR "AI Agent" remote Europe'
+    enabled: true
+
+  
+# -- Tracked companies --
+# Companies whose career pages are checked directly.
+# scan_method: playwright (default), websearch, greenhouse_api
+# For Greenhouse companies, add api: field for faster structured JSON access.
+
+tracked_companies:
+
+  # -- AI Labs & LLM providers --
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI manager"'
+    enabled: true
+
+  # -- Voice AI & Conversational AI --
+  - name: ElevenLabs
+    careers_url: https://jobs.ashbyhq.com/elevenlabs
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/elevenlabs'
+    notes: "Voice AI TTS leader."
+    enabled: true
+
+  - name: Deepgram
+    careers_url: https://jobs.ashbyhq.com/deepgram
+    scan_method: websearch
+    scan_query: 'site:deepgram.com/careers OR "deepgram" "Solutions" OR "AI manager" site:jobs.ashbyhq.com'
+    notes: "STT/TTS APIs."
+    enabled: true
+
+  # -- AI-native platforms (FDE/SA teams) --
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    notes: "No-code + AI platform."
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    notes: "AI SDK, v0.dev. Frontend AI tooling."
+    enabled: true
+
+  - name: Temporal
+    careers_url: https://job-boards.greenhouse.io/temporal
+    api: https://boards-api.greenhouse.io/v1/boards/temporal/jobs
+    notes: "Workflow orchestration."
+    enabled: true
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    notes: "LLMOps / AI observability."
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    notes: "Enterprise AI search."
+    enabled: true
+
+ # -- Enterprise comms & contact center --
+
+  - name: Twilio
+    careers_url: https://www.twilio.com/en-us/company/jobs
+    scan_method: websearch
+    scan_query: 'site:twilio.com/company/jobs "AI" OR "Voice" "Solutions" OR "Architect"'
+    notes: "Voice/messaging infrastructure."
+    enabled: true
+
+  - name: Gong
+    careers_url: https://www.gong.io/careers
+    scan_method: websearch
+    scan_query: 'site:gong.io/careers "AI" OR "Solutions" OR "Manager"'
+    notes: "Revenue intelligence with voice AI."
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://careers.salesforce.com
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Forward Deployed" OR "AI manager" OR "Agentforce"'
+    notes: "Agentforce = AI agents platform."
+    enabled: true
+
+  # -- AI infra & LLMOps --
+
+  - name: Lindy
+    careers_url: https://jobs.ashbyhq.com/lindy
+    scan_method: websearch
+    scan_query: '"lindy.ai" "AI" "Forward Deployed" OR "Solutions" site:jobs.ashbyhq.com'
+    notes: "AI agent management platform."
+    enabled: true
+
+  # -- No-Code/Low-Code & Automation --
+
+  - name: n8n
+    careers_url: https://jobs.ashbyhq.com/n8n
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/n8n'
+    notes: "Berlin + remote EU/US. Workflow automation."
+    enabled: true
+
+  - name: Zapier
+    careers_url: https://jobs.ashbyhq.com/zapier
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/zapier'
+    notes: "Remote-first. Automation platform leader."
+    enabled: true
+
+  - name: Make.com (Celonis)
+    careers_url: https://www.make.com/en/careers
+    scan_method: websearch
+    scan_query: 'site:make.com/en/careers OR "make.com" "manager" OR "solutions" site:jobs.ashbyhq.com'
+    notes: "Celonis parent company. Automation platform."
+    enabled: true
+
+  # -- Ashby-based (Playwright direct) --
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "AI/LLM provider. Toronto + remote."
+    enabled: true
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    notes: "LangChain/LangSmith framework."
+    enabled: true
+
+  # -- Lever-based (Playwright direct) --
+
+  - name: Mistral AI
+    careers_url: https://jobs.lever.co/mistral
+    notes: "Paris. European AI lab."
+    enabled: true
+
+  # -- AI / Developer Tools --
+
+  - name: Perplexity
+    careers_url: https://jobs.ashbyhq.com/perplexity
+    scan_method: websearch
+    scan_query: ‘site:jobs.ashbyhq.com/perplexity "AI" OR "Applied AI" OR "Forward Deployed" OR "manager"’
+    notes: "AI-native search and enterprise AI platform."
+    enabled: true
+
+  - name: WorkOS
+    careers_url: https://jobs.ashbyhq.com/workos
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/workos "Solutions manager" OR "Developer Success" OR "manager"'
+    notes: "Developer tools and enterprise-ready auth/platform APIs."
+    enabled: true
+
+  # -- Dev Tools / AI Infra (DevRel, SA, FDE focus) --
+
+  - name: Supabase
+    careers_url: https://jobs.ashbyhq.com/supabase
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/supabase'
+    notes: "Open-source Firebase alternative. Remote-first. Postgres + Auth + Storage. Strong DevRel/DX hiring."
+    enabled: true
+
+  - name: Google
+    careers_url: https://careers.google.com/jobs/results?
+    scan_method: websearch
+    scan_query: 'Director'
+    notes: "Search and LLM provider. Many AI teams (DeepMind, Brain, Research, etc.) but hard to get FDE/SA roles. Director-level roles may have more flexibility."
+    enabled: true
+
+  - name: Google DeepMind
+    careers_url: https://job-boards.greenhouse.io/deepmind
+    api: https://boards-api.greenhouse.io/v1/boards/deepmind/jobs
+    notes: "Pioneering AI research lab. FDE/SA roles are rare and competitive."
+    enabled: true
+
+  - name: Hubspot
+    careers_url: https://www.hubspot.com/careers/
+    scan_method: websearch
+    scan_query: 'site:hubspot.com/careers "AI" "Product Manager" OR "Director" OR "Program Manager"'
+    notes: "CRM giant with growing AI initiatives."
+    enabled: true

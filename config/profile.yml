@@ -1,0 +1,94 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Arjun Kulshreshtha"
+  email: "arj.kulshreshtha@yahoo.com"
+  phone: "314.326.9299"
+  location: "Pittston, PA"
+  linkedin: "linkedin.com/in/arjunkulshreshtha"
+  portfolio_url: "https://github.com/arjkul"
+  github: "https://github.com/arjkul"
+  twitter: ""
+  visa: "H1B"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Senior Product Manager"
+    - "Product Manager"
+    - "Program Manager"
+    - "Director of Operations"
+    - "VP of Operations"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Product Manager"
+      level: "Senior/Staff"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Technical Product Manager"
+      level: "Senior"
+      fit: "primary"
+    - name: "AI Product Manager"
+      level: "Senior"
+      fit: "primary"
+    - name: "Group Product Manager"
+      level: "Lead"
+      fit: "primary"
+    - name: "Principal / Staff PM"
+      level: "Staff"
+      fit: "adjacent"
+    - name: "Program Manager"
+      level: "Senior/Principal"
+      fit: "secondary"
+    - name: "Director of Operations"
+      level: "Director"
+      fit: "secondary"
+    - name: "VP of Operations"
+      level: "VP"
+      fit: "primary"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Senior leader in Product Management & Operations Strategy — $20M+ in cost savings, $99M+ programs delivered"
+  # Your exit story — what makes you unique
+  exit_story: "Built and scaled operations at Amazon and ShipMonk — from 10K to 100K shipments/day, launched $99M stations, reduced churn 35%. Now targeting product and operations leadership roles where I can bring AI-first thinking and operator-scale execution."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "End-to-end transformation: 0-to-1 product launches at operator scale (10X growth, $99M programs)"
+    - "Data-driven ops: forecasting models, labor planning, cost optimization across 1,500+ person teams"
+    - "Cross-functional leadership: product, engineering, supply chain, and field teams in global environments"
+    - "AI-first mindset: AWS AI/ML certified, actively using Claude Code, N8N, Zapier, Cursor in workflows"
+    - "Stakeholder alignment: trusted partner from frontline to C-suite across Amazon, ShipMonk, HPCL"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Amazon last-mile 10X scale"
+      hero_metric: "Scaled station from 10K to 100K shipments/day in 1 year, quality up 76%"
+    - name: "Amazon $4.5M productivity gain"
+      hero_metric: "10% regional productivity increase (13K manhours) in 3 months, top-10 U.S. network"
+    - name: "Amazon $99M station launch"
+      hero_metric: "160+ associates + 400 drivers onboarded in 100 days, on time and on budget"
+    - name: "ShipMonk merchant churn"
+      hero_metric: "Reduced merchant churn 35%, chargebacks down 69% in one quarter"
+    - name: "HPCL energy optimization"
+      hero_metric: "$2.5M annual savings through Renewable Energy Certificate reallocation"
+    - name: "Amazon $5M automation roadmap"
+      hero_metric: "12% efficiency gain across 3 facilities via shipment redirection automation"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://yoursite.dev/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$180K-350K"
+  currency: "USD"
+  minimum: "$165K"
+  location_flexibility: "Remote preferred; open to hybrid or in-office in Boston, MA or New York City, NY"
+
+location:
+  country: "United States"
+  city: "Pittston, PA"
+  timezone: "EST"
+  visa_status: "H1B — requires transfer/sponsorship"

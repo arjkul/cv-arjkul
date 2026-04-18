@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arjun Kulshreshtha — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 18px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 14px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job-location { font-size: 10px; color: #888; }
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 12px; }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+
+  .edu-item { margin-bottom: 8px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cert-title { font-size: 10.5px; font-weight: 500; color: #333; }
+  .cert-org { color: hsl(270, 70%, 45%); }
+  .cert-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break, .job, .project, .edu-item, .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Arjun Kulshreshtha</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>arj.kulshreshtha@yahoo.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/arjunkulshreshtha">linkedin.com/in/arjunkulshreshtha</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/arjkul">github.com/arjkul</a>
+      <span class="separator">|</span>
+      <span>Pittston, PA | H1B Visa (sponsorship required)</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">Technical leader with 10+ years driving AI-augmented product strategy and large-scale operations at Amazon, ShipMonk, and HPCL. AWS-certified in Generative AI Solutions, Prompt Engineering, and Machine Learning — daily practitioner of LLM tools including Claude Code, agent architectures, and context engineering workflows for operational automation. Proven ability to communicate complex AI concepts to both technical and executive audiences while partnering with engineering teams on automation initiatives that generated $20M+ in cumulative savings. Brings operator-scale execution, evaluation-driven decision-making, and AI-first thinking to technical advisory and customer-facing engineering roles.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">LLM Application Design</span>
+      <span class="competency-tag">Agent Architectures</span>
+      <span class="competency-tag">Context Engineering</span>
+      <span class="competency-tag">Prompt Engineering</span>
+      <span class="competency-tag">Technical Advisory</span>
+      <span class="competency-tag">Evaluation Frameworks</span>
+      <span class="competency-tag">AI-Augmented Operations</span>
+      <span class="competency-tag">Cross-functional Engineering Partnership</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">ShipMonk</span>
+        <span class="job-period">2025 - Present</span>
+      </div>
+      <div class="job-role">Senior Manager, B2B Product Strategy <span class="job-location">| Pittston, PA</span></div>
+      <ul>
+        <li>Applied LLM tooling and agent workflows (Claude Code, N8N) to automate merchant onboarding evaluation frameworks, reducing launch timelines 15% and supporting 100+ SME accounts across 15+ big box retailers</li>
+        <li>Defined and managed product roadmap for a $4M initiative aligned to key industry metrics, improving on-time delivery by 8% through data-driven prioritization and cross-functional delivery</li>
+        <li>Reduced merchant churn 35% by engaging stakeholders on product features with clear value proposition; cut chargebacks 69% from Q2'25 to Q3'25</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Amazon</span>
+        <span class="job-period">2020 - 2025</span>
+      </div>
+      <div class="job-role">Senior Manager, eCommerce Product Operations <span class="job-location">| Northeast & Midwest (IL, MA, CT, NY)</span></div>
+      <ul>
+        <li>Defined requirements and managed roadmap for a $5M automation initiative using context engineering and forecasting models to optimize shipment redirection -- 12% efficiency gain across 3 facilities</li>
+        <li>Synthesized customer needs and scaled data collection for AI-powered forecasting models to optimize labor planning for 1,500+ associates; improved network capacity utilization 15%</li>
+        <li>Scaled last-mile station from 10K to 100K shipments/day in one year, improving quality metrics 76% -- led cross-functional teams using data-driven evaluation frameworks to identify bottlenecks and ship solutions</li>
+        <li>Increased regional productivity 10% (13K manhours) in 3 months by driving technical product adoption, generating $4.5M in savings; ranked station in top 10 of U.S. last-mile network</li>
+        <li>Led $99M project launch: hired and onboarded 160+ associates and 400 drivers in 100 days through structured technical documentation and milestone tracking</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Hindustan Petroleum Corporation Limited (HPCL)</span>
+        <span class="job-period">2012 - 2019</span>
+      </div>
+      <div class="job-role">Assistant Manager, Supply Chain & Logistics <span class="job-location">| Multiple Cities, India</span></div>
+      <ul>
+        <li>Developed forecasting models to identify bottlenecks in supply chain operations; improved downtime accuracy and productivity 8% through iterative feedback cycles</li>
+        <li>Deployed Renewable Energy Certificate reallocation roadmap achieving $2.5M in annual savings through improved energy efficiency</li>
+        <li>Launched new hardware and migrated legacy security tracking system to modern UX through user research, requirements gathering, and rapid iteration</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <span class="project-title">Nestle Purina — Product Consulting Team Lead</span>
+      <span class="project-badge">2019</span>
+      <div class="project-desc">Led a cross-functional team of 7 on a 6-month product vision development project. Directed market research to assess customer needs and delivered data-driven recommendations to enhance revenue and user engagement on the Pet Finder website. Applied structured evaluation frameworks to prioritize opportunities.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">Master of Business Administration <span class="edu-org">| Washington University in St. Louis</span></span>
+      </div>
+      <div class="edu-desc">Merit-Based Scholarship Award</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">Bachelor of Science, Electronics & Communications Engineering <span class="edu-org">| Allahabad University</span></span>
+      </div>
+      <div class="edu-desc">Merit-Based Scholarship Award</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+
+    <div class="cert-item">
+      <span class="cert-title">AWS Developing Generative AI Solutions &amp; Prompt Engineering</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title">AWS Machine Learning Solutions &amp; Optimizing Foundation Models</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title">Generative AI for Executives</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title">Machine Learning A-Z: Hands-On Python &amp; R in Data Science</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title">Tableau Essential Training | Using Python with Excel | ISO 50001 Auditor</span>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">AI & LLM Tooling:</span> Claude Code, AI Studio, Cursor, Codex, Gemini CLI, Ollama, N8N, Zapier</span>
+      <span class="skill-item"><span class="skill-category">Product & Program:</span> Product Strategy, Roadmap Development, Backlog Prioritization, User Story Creation, Agile/Scrum</span>
+      <span class="skill-item"><span class="skill-category">Data & Analytics:</span> Python, PowerBI, Tableau, QuickSight, Advanced Excel, KPI Tracking, Forecasting Models</span>
+      <span class="skill-item"><span class="skill-category">Technical:</span> JavaScript, HTML, CSS, MySQL, Jira, Asana, Slack, ERP, JDE, VBA</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

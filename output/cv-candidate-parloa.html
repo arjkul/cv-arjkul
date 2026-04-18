@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arjun Kulshreshtha — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.6in;
+  }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-size: 10.5px;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+  a { white-space: nowrap; }
+
+  .section { margin-bottom: 18px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .competency-tag {
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 14px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 12px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; }
+
+  .cert-group { margin-bottom: 8px; }
+  .cert-category { font-size: 10.5px; font-weight: 600; color: #333; margin-bottom: 3px; }
+  .cert-list { font-size: 10px; color: #555; line-height: 1.6; }
+
+  .skills-list { font-size: 10.5px; color: #444; line-height: 1.8; }
+  .skills-list strong { font-weight: 600; color: #333; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break, .job, .project, .edu-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header avoid-break">
+    <h1>Arjun Kulshreshtha</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>314.326.9299</span>
+      <span class="separator">|</span>
+      <span>arj.kulshreshtha@yahoo.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/arjunkulshreshtha">linkedin.com/in/arjunkulshreshtha</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/arjkul">github.com/arjkul</a>
+      <span class="separator">|</span>
+      <span>Pittston, PA</span>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Enterprise operations and product leader with a track record of delivering complex cross-functional integrations at scale. Experienced deploying automation utilities, driving go-live execution for large-scale programs ($99M+), and translating enterprise customer needs into repeatable, scalable solutions. Known for independent problem-solving in ambiguous, high-stakes environments — reducing delivery errors from 360 to 88 bps in 72 hours, scaling infrastructure 10x in one year, and leading $20M+ in cumulative cost savings across industries. AWS AI/ML certified; actively building automation workflows with Python, N8N, and scripting tools.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Enterprise Integration</span>
+      <span class="competency-tag">Go-Live Execution</span>
+      <span class="competency-tag">Cross-Functional Leadership</span>
+      <span class="competency-tag">Automation &amp; Scripting</span>
+      <span class="competency-tag">Incident Response</span>
+      <span class="competency-tag">Stakeholder Communication</span>
+      <span class="competency-tag">Process Optimization</span>
+      <span class="competency-tag">Cloud Infrastructure (AWS)</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">ShipMonk</span>
+        <span class="job-period">2025 – Present</span>
+      </div>
+      <div class="job-role">Senior Manager, B2B Product Strategy — Pittston, PA</div>
+      <ul>
+        <li>Reduced merchant churn by <strong>35%</strong> through stakeholder engagement and iterative product feature improvements; reduced chargebacks by <strong>69%</strong> from Q2–Q3 2025.</li>
+        <li>Defined and managed product roadmap for a <strong>$4M initiative</strong> aligning product features with key industry metrics, improving on-time delivery by 8%.</li>
+        <li>Launched industry-first white glove <strong>go-live onboarding service</strong> supporting 100+ SME accounts across 15+ big box retailers; reduced launch timelines by 15%.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Amazon</span>
+        <span class="job-period">2020 – 2025</span>
+      </div>
+      <div class="job-role">Senior Manager, eCommerce Product Operations — Northeast &amp; Midwest (IL, MA, CT, NY)</div>
+      <ul>
+        <li>Led a <strong>$99M program launch</strong> — hired and onboarded 160+ associates and 400 drivers over 100 days through cross-functional collaboration; delivered on time.</li>
+        <li>Increased regional productivity by <strong>10% (13K manhours)</strong> within 3 months, generating $4.5M in savings and reaching top-10 U.S. network ranking.</li>
+        <li>Reduced delivery errors from <strong>360 bps to 88 bps within 3 days</strong> during peak holiday season 2024 through rapid diagnostic action and operational controls.</li>
+        <li>Scaled a last-mile station from <strong>10K to 100K shipments/day</strong> within one year while improving quality metrics by 76%; led a 21-member management team.</li>
+        <li>Defined and managed roadmap for a <strong>$5M automation initiative</strong> optimizing shipment redirection, boosting operational efficiency by 12% across three facilities.</li>
+        <li>Built forecasting models to optimize labor planning for 1,500+ associates; improved network capacity utilization by 15%.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Hindustan Petroleum Corporation Limited</span>
+        <span class="job-period">2012 – 2019</span>
+      </div>
+      <div class="job-role">Assistant Manager, Supply Chain &amp; Logistics — Multiple Cities, India</div>
+      <ul>
+        <li>Developed roadmap achieving <strong>$2.5M in annual savings</strong> through Renewable Energy Certificate reallocation and improved energy efficiency.</li>
+        <li>Designed and deployed <strong>forecasting models</strong> to identify bottlenecks, improving downtime accuracy and productivity by 8% through iterative feedback cycles.</li>
+        <li>Established communication framework for 120+ third-party personnel ensuring <strong>incident-free operation</strong> of a 90-mile gas pipeline over 3 years.</li>
+        <li>Launched new hardware and migrated legacy tracking system to modern UX through user research, requirements gathering, and rapid iteration.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+    <div class="project">
+      <div class="project-title">Nestlé Purina — Product Consulting Team Lead (2019)</div>
+      <div class="project-desc">Led cross-functional team of 7 on a 6-month product vision project. Directed market research and delivered data-driven recommendations to enhance revenue and user engagement on the Pet Finder website.</div>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">Master of Business Administration — <span class="edu-org">Washington University in St. Louis</span></span>
+      </div>
+      <div class="edu-desc">Merit-Based Scholarship Award</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">Bachelor of Science, Electronics &amp; Communications Engineering — <span class="edu-org">Allahabad University</span></span>
+      </div>
+      <div class="edu-desc">Merit-Based Scholarship Award</div>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+    <div class="cert-group">
+      <div class="cert-category">AI &amp; Machine Learning</div>
+      <div class="cert-list">AWS Developing Generative AI Solutions · AWS Machine Learning Solutions &amp; Prompt Engineering · Generative AI for Executives | Optimizing Foundation Models · Machine Learning A-Z: Hands-On Python &amp; R</div>
+    </div>
+    <div class="cert-group">
+      <div class="cert-category">Technical &amp; Data Analytics</div>
+      <div class="cert-list">Tableau Essential Training · Using Python with Excel · Excel: Macros &amp; VBA · ISO 50001 Auditor</div>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Skills</div>
+    <div class="skills-list">
+      <strong>Product Management:</strong> Product Strategy, Roadmap Development, Backlog Prioritization, User Story Creation<br>
+      <strong>Agile Methodologies:</strong> Scrum, Jira, Sprint Planning, Release Management, Feature Prioritization<br>
+      <strong>AI &amp; Automation:</strong> Claude Code, AI Studio, Cursor, Codex, Gemini CLI, Ollama, N8N, Zapier<br>
+      <strong>Data &amp; Analytics:</strong> KPI Tracking, Process Optimization, PowerBI, Tableau, QuickSight, Advanced Excel, Python<br>
+      <strong>Technology Integration:</strong> JavaScript, HTML, CSS, MySQL, Asana, Slack, ERP, JDE, VBA
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
